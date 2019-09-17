@@ -1,0 +1,153 @@
+.navbar {
+	font-size: 12px;
+	border-color: transparent;
+	border-bottom: 0px;
+}
+
+.navbar-header {
+	color: #ffffff !important;
+}
+
+.navbar-nav li a:hover {
+	color: #0000ff !important;
+}
+
+.navbar-header a:hover {
+	color: #0000ff !important;
+}
+
+.content {
+	padding-top: 0vh;
+}
+
+.logo-container {
+	padding-top: 0vh;
+	padding-left: 0vh;
+}
+
+.aboutlogo-container {
+	padding-top: 75vh;
+	padding-left: 0vh;
+}
+
+.tutor-pic {
+	margin-bottom: 10px;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-size: cover;
+}
+
+.bg-1 {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.footer-office {
+	padding-bottom: 5px !important;
+}
+
+.jumbo-bg1 {
+	font-family: 'Karla' !important;
+	color: #ffffff;
+	padding-top: 2vh;
+
+	/* The image used */
+	background-image: url('Draper.jpg');
+
+	/* Full height */
+	height: 100vh;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbo-bg4 {
+	font-family: 'Karla' !important;
+	color: #ffffff;
+	padding-top: 2vh;
+
+	/* The image used */
+	background-image: url('PlanetariumBG.jpeg');
+
+	/* Full height */
+	height: 100vh;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.jumbo-bg2 {
+	background-image: url(PlanetariumBG.jpeg);
+	padding-top: 2vh;
+
+	/* Full height */
+	height: 30vh;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbo-bg3 {
+	background-image: url(PlanetariumBG.jpeg);
+	padding-top: 2vh;
+
+	/* Full height */
+	height: 30vh;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rw-1 {
+	padding-top: 2vh;
+	padding-left: 18vh;
+	padding-right: 5vh;
+	text-align: justify;
+	font-size: 110%;
+}
+
+.rw-2 {
+	font-size: 110%;
+}
+
+.rw-3 {
+	padding-left: 16vh;
+	padding-right: 16vh;
+	text-align: justify;
+}
+
+body {
+	position: relative;
+	background-color: #dddddd;
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+      color: #ffffff !important;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+}
