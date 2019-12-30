@@ -1,33 +1,46 @@
 body {
-margin: 60px auto;
-width: 70%;
+width: 100%;
+background-color: blue;
 }
+
 nav ul, footer ul {
 font-family:'Helvetica', 'Arial', 'Sans-Serif';
 padding: 0px;
 list-style: none;
 font-weight: bold;
 }
+
+nav ul {
+text-align: center;
+}
+
 nav ul li, footer ul li {
 display: inline;
 margin-right: 20px;
 }
+
 a {
 text-decoration: none;
 color: #999;
 }
+
 a:hover {
 text-decoration: underline;
 }
+
 h1 {
 font-size: 3em;
 font-family:'Helvetica', 'Arial', 'Sans-Serif';
+padding: 70px 0;
 }
+
 p {
 font-size: 1.5em;
 line-height: 1.4em;
 color: #333;
+padding: 70px 0;
 }
+
 footer {
 border-top: 1px solid #d5d5d5;
 font-size: .8em;
@@ -40,4 +53,25 @@ font-size: 1.5em;
 
 ul.posts li {
 list-style: none;
+}
+
+img {
+height: 200px;
+width: 250px;
+}
+.profile {
+transform: scale(-1);
+}
+
+.jumbotron {
+background-image: url('../web_background.jpg');
+/* Full height */                                                                        
+height: 100vh;
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
